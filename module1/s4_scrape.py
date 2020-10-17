@@ -65,3 +65,5 @@ if __name__ == "__main__":
     else:
         print("Unknown task, please use either 'download' or 'check'")
         sys.exit(1)
+
+## pour lancer le script dans le terminal : pyton3 s4_scrape.py download / check

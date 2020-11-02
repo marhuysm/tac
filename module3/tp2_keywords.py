@@ -14,7 +14,7 @@ for f in sorted(files):
         keywords = kw_extractor.extract_keywords(text)
         kept = []
         for score, kw in keywords:
-            words = kw.split()
+            words = kw.split(' ')
             if len(words) > 1 and kw not in ignored:
                 kept.append(kw)
         print(f"{f} mentions these keywords: {', '.join(kept)}...")

@@ -9,7 +9,26 @@ sw += ["les", "plus", "cette", "fait", "faire", "être", "deux", "comme", "dont"
        "ils", "bien", "sans", "peut", "tous", "après", "ainsi", "donc", "cet", "sous",
        "celle", "entre", "encore", "toutes", "pendant", "moins", "dire", "cela", "non",
        "faut", "trois", "aussi", "dit", "avoir", "doit", "contre", "depuis", "autres",
-       "van", "het", "autre", "jusqu"]
+       "van", "het", "autre", "jusqu", "ville bruxelles", "ville", "bruxelles", "de",
+       "mesdames", "messieurs", "bourgmestre", "bourgmestres", "cependant", "franc",
+       "grand", "part", "pense", "chose", "trè", "toute","avant", "parce", "parce que",
+       "ville de bruxelles", "conseil communal", "conseil", "communal","aucune", "ici",
+       "trop", "etc", "lequel", "laquelle", "question", "alors","lorsque", "suivant",
+       "car", "côté", "puis", "rue", "toujours", "seulement", "son", "sa", "ses", "leurs",
+       "notamment", "pourrait", "frai", "quant", "façon", "crois","quelque","peu", "celui",
+       "celle","ceux","celles", "certain", "certaine", "certains", "certaines","grand", "grande",
+       "grands", "sujet", "peuvent", "beaucoup", "exemple", "aujourd'hui", "fait", "faite", "quelques",
+       "objet", "pourquoi", "comment", "quel", "très", "voir", "proposer", "même", "mêmes", "pourra",
+       "mois", "demande", "donner", "monsieur", "madame", "arrêté", "lieu", "rien", "actuellement", "elles",
+       "ils", "nombre", "cas", "né", "née", "faites", "nouveau", "nouvelle", "concerne", "nécessaire", "francs",
+       "francs francs", "sens", "dernier", "chaque", "tout", "toute", "résultat", "raison", "dite", "collège",
+       "communal", "ancien", "demander", "suite", "possible", "seul", "tableau dessous", "doit", "doivent",
+       "conclusions rapport", "dessus", "dessous", "devant", "matière", "égard", "donné", "demandé", "avis",
+       "avis favorable", "propose vote", "vote", "modification", "article", "vue", "aucun", "point vue",
+       "jamais", "émettre","prendre", "établir", "émettre avis", "également", "ensemble", "vient", "agit", "considérable",
+       "politique", "première", "premier", "prévu", "fin", "quand", "ordre", "commune", "catégorie", "voudrais", "tant",
+       "mettre", "pouvons", "devoir", "produit", "lorsqu", "déjà", "moment", "année", "point", "compris", "telle",
+       "mot", "ailleurs", "nécessaires", "estime", "effet", "puisque", "pouvoir", "endroit", "total"]
 sw = set(sw)
 
 

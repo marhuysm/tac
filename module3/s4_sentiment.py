@@ -7,7 +7,7 @@ from textblob_fr import PatternTagger, PatternAnalyzer
 
 tb = Blobber(pos_tagger=PatternTagger(), analyzer=PatternAnalyzer())
 
-input_text = sys.argv[1]
+input_text = input ("Entrez la phrase à analyser : ")
 blob = tb(input_text)
 pola, subj = blob.sentiment
 perc = f"{100*abs(pola):.0f}"

@@ -26,14 +26,14 @@ def search():
     sorted_people = sorted(people.items(), key=lambda kv: kv[1], reverse=True)
     sorted_location = sorted(location.items(), key=lambda kv: kv[1], reverse=True)
     sorted_organisation = sorted(organisation.items(), key=lambda kv : kv[1], reverse=True)
-    for person, freq in sorted_people[:10]:
+    for person, freq in sorted_people[:20]:
         print(f"{person}, a person, appears {freq} times in the corpus")
-    for loc, freq in sorted_location[:10]:
+    for loc, freq in sorted_location[:20]:
         print(f"{loc}, a location, appears {freq} times in the corpus")
-    for org, freq in sorted_organisation[:10]:
+    for org, freq in sorted_organisation[:20]:
         print(f"{org}, an organisation, appears {freq} times in the corpus")
 
-# Il ne semble pas y avoir d'entitées reconnues comme des organisations ou des lieux dans le texte 1929.txt
+# Il ne semble pas y avoir d'entités reconnues comme des organisations ou des lieux dans le texte 1929.txt
 
 if __name__ == "__main__":
     try:

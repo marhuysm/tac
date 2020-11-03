@@ -28,7 +28,9 @@ sw += ["les", "plus", "cette", "fait", "faire", "être", "deux", "comme", "dont"
        "jamais", "émettre","prendre", "établir", "émettre avis", "également", "ensemble", "vient", "agit", "considérable",
        "politique", "première", "premier", "prévu", "fin", "quand", "ordre", "commune", "catégorie", "voudrais", "tant",
        "mettre", "pouvons", "devoir", "produit", "lorsqu", "déjà", "moment", "année", "point", "compris", "telle",
-       "mot", "ailleurs", "nécessaires", "estime", "effet", "puisque", "pouvoir", "endroit", "total"]
+       "mot", "ailleurs", "nécessaires", "estime", "effet", "puisque", "pouvoir", "endroit", "total", "quelle", "abord",
+       "proposition", "existe", "jour", "conclusion", "section", "concernant", "kilogramme kilogrammes", "kilogramme", "kilogrammes",
+       "trouve", "permettre", "accord", "aujourd hui", "autant", "condition", "million"]
 sw = set(sw)
 
 

@@ -8,7 +8,7 @@ from spacy.lang.fr.examples import sentences
 
 nlp = spacy.load('fr_core_news_sm')
 
-n = 100000 
+n = 100000
 
 # Rem : pour n, 100000 ne fonctionnait pas : le programme était directement tué
 
@@ -37,7 +37,7 @@ def search():
     for person, freq in sorted_people[:20]:
         print(f"{person}, a person, appears {freq} times in the corpus")
 
-# PB : LOC ne semble pas avoir été détecté.. Pourtant, en utilisant le code qui suit, des entitées taggées comme "LOC" sont bien présentes : 
+# PB : ORG ne semble pas avoir été détecté.. Pourtant, en utilisant le code qui suit, des entitées taggées comme "ORG" sont bien présentes : 
 # for ent in doc.ents:
 #   print(ent.label_, ' | ', ent.text)
 

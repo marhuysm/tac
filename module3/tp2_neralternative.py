@@ -8,9 +8,7 @@ from spacy.lang.fr.examples import sentences
 
 nlp = spacy.load('fr_core_news_sm')
 
-n = 100000 
-
-# Rem : pour n, 100000 ne fonctionnait pas : le programme était directement tué
+n = 100000
 
 def search():
     text = open("1929.txt", encoding='utf-8').read()[:n]

@@ -8,18 +8,24 @@ sw += ["les", "plus", "cette", "fait", "faire", "être", "deux", "comme", "dont"
        "ils", "bien", "sans", "peut", "tous", "après", "ainsi", "donc", "cet", "sous",
        "celle", "entre", "encore", "toutes", "pendant", "moins", "dire", "cela", "non",
        "faut", "trois", "aussi", "dit", "avoir", "doit", "contre", "depuis", "autres",
-       "van", "het", "autre", "jusqu"]
+       "van", "het", "autre", "jusqu", "communale", "bulletin", "rue", "conseil", "francs",
+       "budget", "projet", "franc", "frais", "somme", "avis", "finances", "total", "cas", "jour",
+       "partie", "lieu", "ville", "collège", "bruxelles", "section", "séance", "bourgmestre", "rapport",
+       "prix", "année", "grand", "mois", "propose", "recettes", "elle", "elles", "très", "mètres", "celui",
+       "messieurs", "administration", "demande", "service", "question", "echevin", "communal", "dépenses",
+       "proposition", "place"]
 sw = set(sw)
 print(f"{len(sw)} stopwords used: {sorted(sw)}")
 
-path = "data/all.txt"
+path = "../data/all.txt"
 limit = 10**8
 
 with open(path) as f:
     text = f.read()[:limit]
     words = nltk.wordpunct_tokenize(text)
     print(f"{len(words)} words found")
-    kept = [w.lower() for w in words if len(w) > 2 and w.isalpha() and w.lower() not in sw]
+#     kept = [w.lower() for w in words if len(w) > 2 and w.isalpha() and w.lower() not in sw]
+    kept = ['cimetiere', 'tombe', 'enterrement']   
     voc = set(kept)
     print(f"{len(kept)} words kept ({len(voc)} different word forms)")
     fdist = nltk.FreqDist(kept)

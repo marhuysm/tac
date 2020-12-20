@@ -3,7 +3,7 @@
 import os
 import yake
 
-ignored = set(["conseil communal", "conseil général", "bruxelles", "ville", "echevin"])
+ignored = set(["conseil communal", "conseil général"])
 
 kw_extractor = yake.KeywordExtractor(lan="fr", top=20)
 data_path = "../data/txt/"
@@ -14,7 +14,7 @@ for f in sorted(files):
         keywords = kw_extractor.extract_keywords(text)
         kept = []
         for score, kw in keywords:
-            words = kw.split(' ')
-            if len(words) > 1 and kw not in ignored:
+            words = kw.split()
+            if len(words) > 1 and kw not in ignored: # only bigrams and more
                 kept.append(kw)
         print(f"{f} mentions these keywords: {', '.join(kept)}...")
